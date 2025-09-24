@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Scriptora</title>
+  <link rel="stylesheet" href="static/css/styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Yussy Scriptora</h1>
+    <p>Crafting Clarity from Complexity</p>
+    <button onclick="document.getElementById('contact').scrollIntoView()">Hire Me</button>
+  </header>
+
+  <section id="about">
+    <h2>About</h2>
+    <p>I specialize in academic writing, research editing, and thesis support with precision and professionalism.</p>
+  </section>
+
+  <section id="services">
+    <h2>Services</h2>
+    <ul>
+      <li>Research Writing</li>
+      <li>Editing & Proofreading</li>
+      <li>Citation & Referencing</li>
+      <li>Custom Requests</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <form id="contactForm">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <p id="status"></p>
+  </section>
+
+  <script src="static/js/script.js"></script>
+</body>
+</html>
